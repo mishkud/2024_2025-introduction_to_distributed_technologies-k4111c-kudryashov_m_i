@@ -75,4 +75,16 @@ kubectl logs lab-vault
 ![image](https://github.com/user-attachments/assets/8021b542-1284-4ec1-9fcc-f4be9f20b1a0)
 
 
+Можно сделать сервис доступным извне, сразу пробросив порты. Для этого запускаем minicube с опциями:
+```
+minikube start --extra-config=apiserver.service-node-port-range=32760-32767 --ports=127.0.0.1:32760-32767:32760-32767
+```
+Тогда при обращении по 127.0.0.1:<порт_сервиса> также открывается страничка Vault.
+![image](https://github.com/user-attachments/assets/30a4169d-08a5-4c9e-8b33-805c98ca8555)
+![image](https://github.com/user-attachments/assets/cdef28a8-c560-4d3e-92ce-cc8b891d21f4)
+
+## 6. Схема
+![image](https://github.com/user-attachments/assets/b6750aca-9b8c-4823-aa68-084ad07dde52)
+![11](https://github.com/user-attachments/assets/f1f4912c-90f2-4c88-a7cc-8b9881e3a669)
+
 
