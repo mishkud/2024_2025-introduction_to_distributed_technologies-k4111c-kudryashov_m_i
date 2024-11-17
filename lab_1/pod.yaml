@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lab_vault
+  name: lab-vault
 spec:
   containers:
   - name: vault
