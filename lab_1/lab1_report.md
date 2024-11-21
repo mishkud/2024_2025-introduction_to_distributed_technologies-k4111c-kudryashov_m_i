@@ -55,9 +55,9 @@ kubectl port-forward service/lab-vault 8200:8200
 ```
 
 Обращаемся к нему по ссылке
-https://127.0.0.1:8200
+http://127.0.0.1:8200
 или 
-https://localhost:8200
+http://localhost:8200
 
 ![image](https://github.com/user-attachments/assets/38afb1ff-8e7e-4c1d-b8ac-97cb4cf87a10)
 
