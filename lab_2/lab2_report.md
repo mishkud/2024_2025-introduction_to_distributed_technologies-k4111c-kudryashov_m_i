@@ -29,6 +29,32 @@ Date of finished:
 
 ![image](https://github.com/user-attachments/assets/e29212da-958b-462c-a0b2-75c34fd8401f)
 
+Логи подов
+
+```
+kubectl logs lab2-deployment-db684fd5c-2jvt9
+Builing frontend
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+build finished
+Server started on port 3000
+
+kubectl logs lab2-deployment-db684fd5c-l5jzj
+Builing frontend
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+build finished
+Server started on port 3000
+```
+
 Схема
 
 ![12](https://github.com/user-attachments/assets/ca78988b-fb2d-4fe3-8f23-f329e13debf8)
