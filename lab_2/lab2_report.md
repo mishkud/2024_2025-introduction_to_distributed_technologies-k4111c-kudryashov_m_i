@@ -5,7 +5,7 @@ Year: 2024/2025
 Group: K4111c  
 Author: Kudryashov Mikhail Ivanovich  
 Lab: Lab2  
-Date of create: 24.11.2024
+Date of create: 24.11.2024  
 Date of finished:   
 
 # Ход работы
