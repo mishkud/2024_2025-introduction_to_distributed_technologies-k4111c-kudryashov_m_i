@@ -12,7 +12,7 @@ Date of finished:
 
 ## 1. Развёртываем ConfigMap и ReplicaSet из Yaml-файлов
 
-`kubectl apply -f Downloads\configMap.yaml`
+`kubectl apply -f Downloads\configMap.yaml`  
 `kubectl apply -f Downloads\ReplicaSet.yaml`
 
 ## 2. Создаём свой TLS-сертификат и активируем аддон Ingress
@@ -45,7 +45,7 @@ You can view the list of minikube maintainers at: https://github.com/kubernetes/
 
 ## 3. Запускаем Service и Ingress из Yaml-файлов
 
-`kubectl apply -f Downloads\Service.yaml`
+`kubectl apply -f Downloads\Service.yaml`  
 `kubectl apply -f Downloads\Ingress.yaml`
 
 ## 4. Добавляем домен в hosts и проверяем его работу
