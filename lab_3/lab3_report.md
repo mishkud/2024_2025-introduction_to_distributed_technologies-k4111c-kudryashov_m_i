@@ -8,14 +8,14 @@ Lab: Lab3
 Date of create:   
 Date of finished:   
  
-#Ход работы
+# Ход работы
 
-##Развёртываем ConfigMap и ReplicaSet из Yaml-файлов
+## 1. Развёртываем ConfigMap и ReplicaSet из Yaml-файлов
 
 `kubectl apply -f Downloads\configMap.yaml`
 `kubectl apply -f Downloads\ReplicaSet.yaml`
 
-##Создаём свой TLS-сертификат и активируем аддон Ingress
+## 2. Создаём свой TLS-сертификат и активируем аддон Ingress
 
 Создаём TLS secret 
 ```
@@ -43,19 +43,19 @@ You can view the list of minikube maintainers at: https://github.com/kubernetes/
 `kubectl -n ingress-nginx get deployment ingress-nginx-controller -o yaml`
 ![Pasted image 20241207170948](https://github.com/user-attachments/assets/5ca2b9d3-cd4c-4bee-81a9-5e97b84d73d0)
 
-##Запускаем Service и Ingress из Yaml-файлов
+## 3. Запускаем Service и Ingress из Yaml-файлов
 
 `kubectl apply -f Downloads\Service.yaml`
 `kubectl apply -f Downloads\Ingress.yaml`
 
-##Добавляем домен в hosts и проверяем его работу
+## 4. Добавляем домен в hosts и проверяем его работу
 ![Pasted image 20241207184939](https://github.com/user-attachments/assets/2b30dec3-917e-47a1-b0e2-6da99d10e6d4)
 ![Pasted image 20241207185720](https://github.com/user-attachments/assets/55103b2b-cbd4-4f04-8862-d2e14253354d)
 
 Сертификат присутствует
 ![image](https://github.com/user-attachments/assets/8dae265a-c3ba-40c4-b6c9-25b880815b2c)
 
-##Схема
+## 5. Схема
 
 ![13](https://github.com/user-attachments/assets/610c601a-8e60-4f71-8b6f-e96541d55e10)
 
