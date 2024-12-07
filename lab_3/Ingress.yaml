@@ -1,8 +1,14 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: lab-ingress
+  name: lab3-ingress
+  labels:
+    labs: lab3
 spec:
+  tls:
+    - hosts:
+      - lab.ingress.com
+      secretName: ingress-nginx
   rules:
   - host: lab.ingress.com
     http:
@@ -13,5 +19,5 @@ spec:
           service:
             name: lab-service
             port:
-              number: 80
+              number: 3000
 
