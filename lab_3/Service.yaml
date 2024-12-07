@@ -5,6 +5,6 @@ metadata:
 spec: 
   type: NodePort
   selector: 
-    labs: lab2
+    labs: lab3
   ports:
-    - port: 80
+    - port: 3000
