@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: lab3-replicaset
+  labels:
+    labs: lab3
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      labs: lab3
+  template:
+    metadata:
+      labels:
+        labs: lab2
+    spec:
+      containers:
+      - name: itdt
+        image: ifilyaninitmo/itdt-contained-frontend:master

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab-vars
+data:
+  REACT_APP_USERNAME: ""Mikhail Kudryashov
+  REACT_APP_COMPANY_NAME: "ITMO"
