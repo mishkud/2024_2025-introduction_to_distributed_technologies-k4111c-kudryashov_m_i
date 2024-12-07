@@ -52,7 +52,7 @@ You can view the list of minikube maintainers at: https://github.com/kubernetes/
 ![Pasted image 20241207184939](https://github.com/user-attachments/assets/2b30dec3-917e-47a1-b0e2-6da99d10e6d4)
 ![Pasted image 20241207185720](https://github.com/user-attachments/assets/55103b2b-cbd4-4f04-8862-d2e14253354d)
 
-Сертификат присутствует
+Сертификат присутствует  
 ![image](https://github.com/user-attachments/assets/8dae265a-c3ba-40c4-b6c9-25b880815b2c)
 
 ## 5. Схема
