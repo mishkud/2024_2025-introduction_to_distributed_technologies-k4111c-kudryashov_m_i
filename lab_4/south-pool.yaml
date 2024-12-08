@@ -1,0 +1,9 @@
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+  name: south-ippool
+spec:
+  cidr: 192.168.35.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: zone == "south"
