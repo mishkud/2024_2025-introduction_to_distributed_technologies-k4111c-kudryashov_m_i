@@ -6,7 +6,7 @@ Group: K4111c
 Author: Kudryashov Mikhail Ivanovich  
 Lab: Lab1  
 Date of create: 17.11.2024  
-Date of finished:   
+Date of finished: 21.11.2024   
 
 # Ход работы
 
